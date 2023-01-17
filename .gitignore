@@ -1,0 +1,4 @@
+* .settings/
+bin/
+.classspath
+.project
