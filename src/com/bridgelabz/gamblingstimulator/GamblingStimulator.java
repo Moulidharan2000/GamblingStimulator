@@ -9,11 +9,13 @@ public class GamblingStimulator {
 	static void Gamble(int num) {
 		if(num == 1 && STAKE_MONEY >= 100) {
 			int won = STAKE_MONEY + BET_MONEY;
-			System.out.println("Game Won : "+won);
+			System.out.println("Gambler Won : $"+BET_MONEY);
+			System.out.println("Stake Amount : "+won);
 		}
 		else {
 			int loose = STAKE_MONEY - BET_MONEY;
-			System.out.println("Game Loose : "+loose);
+			System.out.println("Gambler Loose : $"+BET_MONEY);
+			System.out.println("Stake Amount : "+loose);
 		}
 	}
 	
